@@ -6,7 +6,7 @@ function float_rand ($min,$max) {
 }
 
 function mutateint($it){
-$c = rand(1,30);
+$c = rand(1,20);
 if($c==4){
 $r = float_rand(1,2);
 $it-=$r;
